@@ -490,7 +490,7 @@ contract ERC20Detailed is IERC20 {
 
 // AUTHOR - CITL DEVELOPERS 
 
-contract ConnectCoin is ERC20Pausable, ERC20Detailed {
+contract CONNECTXCON is ERC20Pausable, ERC20Detailed {
     constructor (string memory name, string memory symbol, uint8 decimals, uint256 totalSupply)
     public
     ERC20Detailed (name, symbol, decimals) {
